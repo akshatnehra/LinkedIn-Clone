@@ -553,10 +553,15 @@ hr {
 }
 
 .right-aside {
-  background-color: white;
   width: 20%;
   height: max-content;
   margin-left: 2rem;
+}
+
+.news {
+  background-color: white;
+  padding-bottom: 0.25%;
+  padding-top: 0.25rem;
   border-radius: 0.55rem;
 }
 
@@ -622,6 +627,53 @@ hr {
   padding-left: 1rem;
 }
 
+.footer {
+  margin-top: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+  justify-content: space-evenly;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: gray;
+}
+
+.nav-links p:hover {
+  color: #4490cf;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.irow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 0.5rem;
+}
+
+.irow p {
+  margin-left: 1.5rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 2rem;
+  margin-left: 3rem;
+}
+
+.footer-logo p {
+  padding-left: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
 .header-icons,
 .search-logo img,
 .profile-details h3,
@@ -643,6 +695,7 @@ hr {
 img,
 .user-info,
 .news-container,
-.show-more {
+.show-more,
+.nav-links p {
   cursor: pointer;
 }
