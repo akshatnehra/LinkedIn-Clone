@@ -539,9 +539,9 @@ hr {
   background-color: #ebebeb;
 }
 
-#selected-username:hover{
-    text-decoration: underline;
-    color: #4490cf;
+#selected-username:hover {
+  text-decoration: underline;
+  color: #4490cf;
 }
 
 #post-image {
@@ -553,9 +553,73 @@ hr {
 }
 
 .right-aside {
-  background-color: green;
+  background-color: white;
   width: 20%;
+  height: max-content;
   margin-left: 2rem;
+  border-radius: 0.55rem;
+}
+
+.news-header {
+  display: flex;
+  margin-top: 0.75rem;
+  margin-left: 0.65rem;
+  margin-right: 0.65rem;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900;
+  font-size: 0.62rem;
+  margin-bottom: 0.6rem;
+}
+
+.news-container {
+  padding-left: 0.65rem;
+  padding-top: 0.05rem;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.news-container:hover {
+  background-color: #ebebeb;
+}
+
+.show-more {
+  display: flex;
+  align-items: center;
+  margin-left: 1.25rem;
+  color: grey;
+  font-size: 1rem;
+  padding: 0.15rem 0.5rem 0.15rem 0.5rem;
+  margin-right: 58%;
+  margin-bottom: 0.75rem;
+}
+
+.show-more:hover {
+  background-color: #ebebeb;
+}
+
+.show-more img {
+  height: 0.75rem;
+  margin-left: 0.35rem;
+}
+
+#symbol {
+  padding-right: 0.5rem;
+}
+
+.news-header img {
+  height: 0.85rem;
+}
+
+.news-individual h4 {
+  font-size: 0.8rem;
+  padding-bottom: 0.25rem;
+}
+
+.news-individual h6 {
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding-left: 1rem;
 }
 
 .header-icons,
@@ -574,6 +638,11 @@ hr {
 #see-all,
 .discover,
 .start-post input,
-.individual-icon, .individual-react, img, .user-info{
+.individual-icon,
+.individual-react,
+img,
+.user-info,
+.news-container,
+.show-more {
   cursor: pointer;
 }
